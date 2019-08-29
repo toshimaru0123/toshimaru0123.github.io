@@ -1,0 +1,222 @@
+/* 記事部分 */
+
+article {
+    display: block;
+    max-width: 920px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* 記事ヘッダ */
+
+.entry-header {
+    color: black;
+    height: auto;
+    margin: 0 auto;
+    width: 100%;
+    background-color: #ff7f27;
+}
+
+.entry-title {
+    font-size: 20pt;
+    font-weight: 600;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.entry-date {
+    display: inline-block;
+    font-size: 15pt;
+    font-weight: 100;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.entry-categories_tags {
+    display: inline-block;
+}
+
+.categories {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: white;
+    font-size: 15pt;
+}
+
+.categories li {
+    margin-left: 5px;
+    text-decoration: underline;
+    list-style: none;
+    display: inline;
+}
+
+.tags {
+    display: inline-block;
+    margin-left: 15px;
+    color: white;
+    font-size: 15pt;
+}
+
+.tags li {
+    padding-left: 5px;
+    text-decoration: underline;
+    list-style: none;
+    display: inline;
+}
+
+.entry-contents {
+    margin: 20px 20px;
+}
+
+.entry-contents h2 {
+    display: block;
+    text-align: left;
+    margin-bottom: 40px;
+    font-size: 18pt;
+    border-bottom: 3px solid #fff;
+}
+
+.entry-contents h3 {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 30px;
+    padding: 5px 5px;
+    font-size: 15pt;
+    border: 3px solid #fff;
+    border-radius: 4px;
+}
+
+.entry-contents h4 {
+    display: inline;
+    font-weight: 500;
+    border-bottom: solid 2px #fff;
+}
+
+.entry-contents p {
+    font-weight: 300;
+    margin: 60px auto;
+    line-height: 20pt;
+}
+
+.entry-contents ul {
+    font-size: 11pt;
+    margin-top: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: 1px solid #fff;
+}
+
+figure {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.twitter-tweet {
+    margin: 60px auto;
+}
+
+@media screen and (min-width:650px) {
+    /* 記事部分 */
+    article {
+        display: block;
+        max-width: 920px;
+        width: calc(100% - 40px);
+        margin: 0 auto;
+    }
+    /* 記事ヘッダ */
+    .entry-header {
+        color: black;
+        height: auto;
+        margin: 0 auto;
+        width: 100%;
+        background-color: #ff7f27;
+    }
+    .entry-title {
+        font-size: 35pt;
+        font-weight: 600;
+        margin-bottom: 0px;
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+    .entry-date {
+        display: inline-block;
+        font-size: 20pt;
+        font-weight: 100;
+        margin-top: 5px;
+        margin-left: 20px;
+    }
+    .entry-categories_tags {
+        display: inline-block;
+    }
+    .categories {
+        display: inline-block;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        color: white;
+        font-size: 18pt;
+    }
+    .categories li {
+        margin-left: 5px;
+        text-decoration: underline;
+        list-style: none;
+        display: inline;
+    }
+    .tags {
+        display: inline-block;
+        margin-left: 15px;
+        color: white;
+        font-size: 18pt;
+    }
+    .tags li {
+        padding-left: 5px;
+        text-decoration: underline;
+        list-style: none;
+        display: inline;
+    }
+    .entry-contents {
+        margin: 50px 20px;
+    }
+    .entry-contents h2 {
+        display: block;
+        text-align: left;
+        margin-bottom: 25px;
+        font-size: 25pt;
+        border-bottom: 3px solid #fff;
+    }
+    .entry-contents h3 {
+        display: block;
+        font-weight: 600;
+        margin-bottom: 60px;
+        padding: 7px 15px;
+        font-size: 18pt;
+        border: 3px solid #fff;
+        border-radius: 7px;
+    }
+    .entry-contents h4 {
+        display: inline;
+        font-weight: 400;
+        font-size: 15pt;
+        border-bottom: solid 2px #fff;
+    }
+    .entry-contents p {
+        font-weight: 400;
+        font-size: 13pt;
+        margin-top: 35px;
+        margin-bottom: 35px;
+        line-height: 25pt;
+    }
+    .entry-contents ul {
+        margin-bottom: 20px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        border: 1px solid #fff;
+    }
+    figure {
+        width: 85%;
+        margin: 60px auto;
+    }
+}

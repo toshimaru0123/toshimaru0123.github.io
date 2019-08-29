@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Photos on Sandbox</title>
+    <link>https://toshimaru0123.github.io/photos/</link>
+    <description>Recent content in Photos on Sandbox</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja</language>
+    <lastBuildDate>Sat, 15 Jun 2019 17:44:50 +0900</lastBuildDate>
+    
+	<atom:link href="https://toshimaru0123.github.io/photos/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>オランダ滞在写真</title>
+      <link>https://toshimaru0123.github.io/photos/2019_08_29/neitherlands/</link>
+      <pubDate>Thu, 29 Aug 2019 11:54:38 +0900</pubDate>
+      
+      <guid>https://toshimaru0123.github.io/photos/2019_08_29/neitherlands/</guid>
+      <description>                                                                        </description>
+    </item>
+    
+    <item>
+      <title>First</title>
+      <link>https://toshimaru0123.github.io/photos/2019_08_01/first/</link>
+      <pubDate>Thu, 01 Aug 2019 09:43:28 +0900</pubDate>
+      
+      <guid>https://toshimaru0123.github.io/photos/2019_08_01/first/</guid>
+      <description>          </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,236 @@
+@charset "utf-8";
+/* Regular */
+
+@font-face {
+    font-family: 'League Gothic';
+    src: url('../fonts/en/leaguegothic-regular-webfont.eot');
+    src: url('../fonts/en/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/en/leaguegothic-regular-webfont.woff') format('woff'), url('../fonts/en/leaguegothic-regular-webfont.ttf') format('truetype'), url('../fonts/en/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 初期設定 */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: medium;
+    color: #fff;
+    background: #002635;
+    font-family: 'League Gothic';
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #fff;
+}
+
+a:visited {
+    color: #fff
+}
+
+a:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+nav, header, main {
+    display: block;
+}
+
+/* ページ */
+
+#page {
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* ヘッダ */
+
+header {
+    text-align: center;
+    font-size: 35pt;
+    max-height: 60px;
+    display: block;
+    background: #ff7f27;
+}
+
+header #title {
+    display: block;
+    padding-top: 3px;
+}
+
+/* カード */
+
+#card {
+    width: 100%;
+    max-height: 200px;
+    margin: 30px auto 0px auto;
+    width: 100%;
+    max-width: 320px;
+    font-size: 30pt;
+    text-align: center;
+}
+
+#icon_main {
+    width: 110px;
+    margin-left: 25px;
+    margin-right: 5px;
+}
+
+#card_right {
+    width: 50%;
+    margin: 0 20px 0 0;
+    float: right;
+}
+
+.card_name {
+    margin: 10px auto -30px auto;
+    text-align: center;
+}
+
+.card_other_link {
+    width: 160px;
+    margin: 40px auto 0 auto;
+}
+
+.card_other_link a {
+    display: inline-block;
+    margin: 0 3px 0 3px;
+    width: 40px;
+    height: 40px;
+}
+
+#icon_Twitter {
+    margin: 0 auto;
+    width: 40px;
+}
+
+#icon_Twitter:hover {
+    opacity: 0.7;
+}
+
+#icon_Youtube {
+    margin: 0 auto;
+    width: 40px;
+}
+
+#icon_Youtube:hover {
+    opacity: 0.7;
+}
+
+#icon_GitHub {
+    margin: 0 auto;
+    width: 40px;
+}
+
+#icon_GitHub:hover {
+    opacity: 0.7;
+}
+
+/* ナビゲーション */
+
+nav {
+    margin: 30px auto 0 auto;
+    clear: both;
+    line-height: 50px;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav li {
+    display: block;
+}
+
+nav a {
+    font-size: 30pt;
+    text-decoration: underline #fff;
+}
+
+/*　画面サイズが480pxからはここを読み込む　*/
+
+@media screen and (min-width:650px) {
+    /* ヘッダ- */
+    header {
+        text-align: center;
+        font-size: 40pt;
+        max-height: 60px;
+        display: block;
+        background: #ff7f27;
+    }
+    /* カード */
+    #card {
+        width: 100%;
+        max-height: 200px;
+        margin: 100px auto 0px auto;
+        max-width: 550px;
+        font-size: 50pt;
+        text-align: center;
+    }
+    #icon_main {
+        width: 200px;
+        margin: 0 0;
+    }
+    #card_right {
+        width: 60%;
+        margin: 0 0 -30px 0;
+        float: right;
+    }
+    .card_name {
+        margin: 10px auto -30px auto;
+        text-align: center;
+    }
+    .card_other_link {
+        width: 280px;
+        margin: 60px auto 0 auto;
+    }
+    .card_other_link a {
+        display: inline-block;
+        margin: 0 3px 0 3px;
+        width: 80px;
+        height: 80px;
+    }
+    #icon_Twitter {
+        margin: 0px auto;
+        width: 80px;
+    }
+    #icon_Twitter:hover {
+        opacity: 0.7;
+    }
+    #icon_Youtube {
+        margin: 0px auto;
+        width: 80px;
+    }
+    #icon_Youtube:hover {
+        opacity: 0.7;
+    }
+    #icon_GitHub {
+        margin: 0px auto;
+        width: 80px;
+    }
+    #icon_GitHub:hover {
+        opacity: 0.7;
+    }
+    /* ナビゲーション */
+    nav {
+        margin: 100px auto 0 auto;
+        clear: both;
+        line-height: 70px;
+        text-align: center;
+    }
+    nav ul {
+        padding: 0;
+    }
+    nav li {
+        display: block;
+    }
+    nav a {
+        font-size: 40pt;
+        text-decoration: underline #fff;
+    }
+}
