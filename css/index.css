@@ -112,12 +112,12 @@ header #title {
     opacity: 0.7;
 }
 
-#icon_Youtube {
+#icon_pixiv {
     margin: 0 auto;
     width: 40px;
 }
 
-#icon_Youtube:hover {
+#icon_pixiv:hover {
     opacity: 0.7;
 }
 
@@ -202,11 +202,11 @@ nav a {
     #icon_Twitter:hover {
         opacity: 0.7;
     }
-    #icon_Youtube {
+    #icon_pixiv {
         margin: 0px auto;
         width: 80px;
     }
-    #icon_Youtube:hover {
+    #icon_pixiv:hover {
         opacity: 0.7;
     }
     #icon_GitHub {
