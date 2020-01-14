@@ -3,26 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://toshimaru0123.github.io/blog/2020_01_14/new_year_post/</loc>
+    <lastmod>2020-01-14T08:18:53+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://toshimaru0123.github.io/blog/</loc>
-    <lastmod>2019-09-10T13:51:20+09:00</lastmod>
+    <lastmod>2020-01-14T08:18:53+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://toshimaru0123.github.io/categories/</loc>
-    <lastmod>2019-09-10T13:51:20+09:00</lastmod>
+    <lastmod>2020-01-14T08:18:53+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://toshimaru0123.github.io/</loc>
-    <lastmod>2019-09-10T13:51:20+09:00</lastmod>
+    <lastmod>2020-01-14T08:18:53+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://toshimaru0123.github.io/tags/</loc>
-    <lastmod>2019-09-10T13:51:20+09:00</lastmod>
+    <lastmod>2020-01-14T08:18:53+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://toshimaru0123.github.io/tags/%E3%81%B2%E3%81%A8%E3%82%8A%E3%81%94%E3%81%A8/</loc>
+    <lastmod>2020-01-14T08:18:53+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://toshimaru0123.github.io/categories/%E9%9B%91%E8%A8%98/</loc>
+    <lastmod>2020-01-14T08:18:53+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -59,20 +76,8 @@
   </url>
   
   <url>
-    <loc>https://toshimaru0123.github.io/tags/%E3%81%B2%E3%81%A8%E3%82%8A%E3%81%94%E3%81%A8/</loc>
-    <lastmod>2019-08-02T15:34:35+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://toshimaru0123.github.io/blog/2019_08_02/my_first_entry/</loc>
     <lastmod>2019-08-02T15:34:35+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://toshimaru0123.github.io/categories/%E9%9B%91%E8%A8%98/</loc>
-    <lastmod>2019-08-02T15:34:35+09:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
