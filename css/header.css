@@ -141,6 +141,7 @@ header {
 
 header #title {
     display: block;
+    color: #002635;
     padding-top: 3px;
 }
 
