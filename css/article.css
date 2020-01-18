@@ -35,6 +35,7 @@ article {
 
 .entry-categories_tags {
     display: inline-block;
+    color: #002635;
 }
 
 .categories {
@@ -42,7 +43,7 @@ article {
     margin-top: 5px;
     margin-bottom: 20px;
     margin-left: 20px;
-    color: white;
+    color: #002635;
     font-size: 15pt;
 }
 
@@ -53,10 +54,14 @@ article {
     display: inline;
 }
 
+.categories li a {
+    color: #fff;
+}
+
 .tags {
     display: inline-block;
     margin-left: 15px;
-    color: white;
+    color: #002635;
     font-size: 15pt;
 }
 
@@ -65,6 +70,10 @@ article {
     text-decoration: underline;
     list-style: none;
     display: inline;
+}
+
+.tags li a {
+    color: #fff;
 }
 
 .entry-contents {
@@ -128,7 +137,7 @@ figure {
     }
     /* 記事ヘッダ */
     .entry-header {
-        color: black;
+        color: #002635;
         height: auto;
         margin: 0 auto;
         width: 100%;
@@ -150,13 +159,14 @@ figure {
     }
     .entry-categories_tags {
         display: inline-block;
+        color: #002635;
     }
     .categories {
         display: inline-block;
         margin-top: 5px;
         margin-bottom: 20px;
         margin-left: 20px;
-        color: white;
+        color: #002635;
         font-size: 18pt;
     }
     .categories li {
@@ -165,10 +175,13 @@ figure {
         list-style: none;
         display: inline;
     }
+    .categories li a {
+        color: #fff;
+    }
     .tags {
         display: inline-block;
         margin-left: 15px;
-        color: white;
+        color: #002635;
         font-size: 18pt;
     }
     .tags li {
@@ -176,6 +189,9 @@ figure {
         text-decoration: underline;
         list-style: none;
         display: inline;
+    }
+    .tags li a {
+        color: #fff;
     }
     .entry-contents {
         margin: 50px 20px;
