@@ -80,25 +80,25 @@ article {
     margin: 20px 20px;
 }
 
-.entry-contents h2 {
+.entry-contents h1 {
     display: block;
     text-align: left;
     margin-bottom: 40px;
-    font-size: 18pt;
+    font-size: 20pt;
     border-bottom: 3px solid #fff;
 }
 
-.entry-contents h3 {
+.entry-contents h2 {
     display: block;
     font-weight: 600;
     margin-bottom: 30px;
-    padding: 5px 5px;
-    font-size: 15pt;
+    padding: 5px 10px;
+    font-size: 14pt;
     border: 3px solid #fff;
     border-radius: 4px;
 }
 
-.entry-contents h4 {
+.entry-contents h3 {
     display: inline;
     font-weight: 500;
     border-bottom: solid 2px #fff;
@@ -106,7 +106,7 @@ article {
 
 .entry-contents p {
     font-weight: 300;
-    margin: 60px auto;
+    margin: 40px auto;
     line-height: 20pt;
 }
 
@@ -196,23 +196,21 @@ figure {
     .entry-contents {
         margin: 50px 20px;
     }
-    .entry-contents h2 {
+    .entry-contents h1 {
         display: block;
         text-align: left;
         margin-bottom: 25px;
         font-size: 25pt;
         border-bottom: 3px solid #fff;
     }
-    .entry-contents h3 {
+    .entry-contents h2 {
         display: block;
         font-weight: 600;
         margin-bottom: 60px;
         padding: 7px 15px;
-        font-size: 18pt;
-        border: 3px solid #fff;
-        border-radius: 7px;
+        font-size: 20pt;
     }
-    .entry-contents h4 {
+    .entry-contents h3 {
         display: inline;
         font-weight: 400;
         font-size: 15pt;
@@ -226,6 +224,7 @@ figure {
         line-height: 25pt;
     }
     .entry-contents ul {
+        font-size: 13pt;
         margin-bottom: 20px;
         padding-top: 8px;
         padding-bottom: 8px;
