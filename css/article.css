@@ -1,5 +1,4 @@
 /* 記事部分 */
-
 article {
     display: block;
     max-width: 920px;
@@ -41,10 +40,10 @@ article {
 .categories {
     display: inline-block;
     margin-top: 5px;
-    margin-bottom: 20px;
-    margin-left: 20px;
+    margin-bottom: 5px;
+    margin-left: 0px;
     color: #002635;
-    font-size: 15pt;
+    font-size: 13pt;
 }
 
 .categories li {
@@ -60,9 +59,9 @@ article {
 
 .tags {
     display: inline-block;
-    margin-left: 15px;
+    margin-left: 0px;
     color: #002635;
-    font-size: 15pt;
+    font-size: 13pt;
 }
 
 .tags li {
@@ -131,7 +130,6 @@ figure {
     /* 記事部分 */
     article {
         display: block;
-        max-width: 920px;
         width: calc(100% - 40px);
         margin: 0 auto;
     }
@@ -165,7 +163,7 @@ figure {
         display: inline-block;
         margin-top: 5px;
         margin-bottom: 20px;
-        margin-left: 20px;
+        margin-left: 5px;
         color: #002635;
         font-size: 18pt;
     }
@@ -180,7 +178,7 @@ figure {
     }
     .tags {
         display: inline-block;
-        margin-left: 15px;
+        margin-left: 5px;
         color: #002635;
         font-size: 18pt;
     }

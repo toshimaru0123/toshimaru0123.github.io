@@ -69,7 +69,7 @@
 
     figure img {
         margin: auto auto;
-        width: 80px;
+        width: 60px;
     }
 
     #tags_categories_title {
@@ -152,12 +152,12 @@
             margin-top: 10px;
         }
         figure {
-            width: 180px;
-            height: 180px;
+            width: 150px;
+            height: 150px;
             margin: auto 10px auto 10px;
         }
         figure img {
-            width: 180px;
+            width: 150px;
         }
         #tags_categories_title {
             padding-left: 10px;
